@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_r-ROgAavEeq9boQrCSSonQ" name="Chat System">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_sKDnwAavEeq9boQrCSSonQ">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:StateMachine" xmi:id="_sGL0YAavEeq9boQrCSSonQ" name="StateMachine1">
+    <region xmi:type="uml:Region" xmi:id="_sHYHMAavEeq9boQrCSSonQ" name="Region1"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interaction" xmi:id="_sIuLBAavEeq9boQrCSSonQ" name="Interaction2"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_2cbPcAavEeq9boQrCSSonQ" name="User"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_J44BEAawEeq9boQrCSSonQ" memberEnd="_J44BEwawEeq9boQrCSSonQ _J5ByEAawEeq9boQrCSSonQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_J44BEQawEeq9boQrCSSonQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_J44BEgawEeq9boQrCSSonQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_J44BEwawEeq9boQrCSSonQ" name="choose a pseudo" type="_DQq-AAawEeq9boQrCSSonQ" association="_J44BEAawEeq9boQrCSSonQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_J5ByEAawEeq9boQrCSSonQ" name="user" type="_2cbPcAavEeq9boQrCSSonQ" association="_J44BEAawEeq9boQrCSSonQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_SEpvsAawEeq9boQrCSSonQ" memberEnd="_SEpvswawEeq9boQrCSSonQ _SEpvtAawEeq9boQrCSSonQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_SEpvsQawEeq9boQrCSSonQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_SEpvsgawEeq9boQrCSSonQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_SEpvswawEeq9boQrCSSonQ" name="change a pseudo" type="_Lm63QAawEeq9boQrCSSonQ" association="_SEpvsAawEeq9boQrCSSonQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_SEpvtAawEeq9boQrCSSonQ" name="user" type="_2cbPcAavEeq9boQrCSSonQ" association="_SEpvsAawEeq9boQrCSSonQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_Mbxe0Aa0Eeq9boQrCSSonQ" memberEnd="_Mbxe0wa0Eeq9boQrCSSonQ _Mbxe1Aa0Eeq9boQrCSSonQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Mbxe0Qa0Eeq9boQrCSSonQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Mbxe0ga0Eeq9boQrCSSonQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Mbxe0wa0Eeq9boQrCSSonQ" name="minimize chat" type="_S56uUAaxEeq9boQrCSSonQ" association="_Mbxe0Aa0Eeq9boQrCSSonQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Mbxe1Aa0Eeq9boQrCSSonQ" name="user" type="_2cbPcAavEeq9boQrCSSonQ" association="_Mbxe0Aa0Eeq9boQrCSSonQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_Vd2jUAa0Eeq9boQrCSSonQ" memberEnd="_Vd2jUwa0Eeq9boQrCSSonQ _Vd2jVAa0Eeq9boQrCSSonQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Vd2jUQa0Eeq9boQrCSSonQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Vd2jUga0Eeq9boQrCSSonQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Vd2jUwa0Eeq9boQrCSSonQ" name="save to local db" type="_WzHYAAayEeq9boQrCSSonQ" association="_Vd2jUAa0Eeq9boQrCSSonQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Vd2jVAa0Eeq9boQrCSSonQ" name="send image" type="_gCa1oAaxEeq9boQrCSSonQ" association="_Vd2jUAa0Eeq9boQrCSSonQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_WErSwAa0Eeq9boQrCSSonQ" memberEnd="_WErSwwa0Eeq9boQrCSSonQ _WErSxAa0Eeq9boQrCSSonQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_WErSwQa0Eeq9boQrCSSonQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_WErSwga0Eeq9boQrCSSonQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_WErSwwa0Eeq9boQrCSSonQ" name="save to local db" type="_WzHYAAayEeq9boQrCSSonQ" association="_WErSwAa0Eeq9boQrCSSonQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_WErSxAa0Eeq9boQrCSSonQ" name="send file" type="_huYoMAaxEeq9boQrCSSonQ" association="_WErSwAa0Eeq9boQrCSSonQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_WzYL0Aa0Eeq9boQrCSSonQ" memberEnd="_WzYL0wa0Eeq9boQrCSSonQ _WzYL1Aa0Eeq9boQrCSSonQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_WzYL0Qa0Eeq9boQrCSSonQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_WzYL0ga0Eeq9boQrCSSonQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_WzYL0wa0Eeq9boQrCSSonQ" name="save to local db" type="_WzHYAAayEeq9boQrCSSonQ" association="_WzYL0Aa0Eeq9boQrCSSonQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_WzYL1Aa0Eeq9boQrCSSonQ" name="send message" type="_JeEe8AaxEeq9boQrCSSonQ" association="_WzYL0Aa0Eeq9boQrCSSonQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_dq3BAAa0Eeq9boQrCSSonQ" memberEnd="_dq3BAwa0Eeq9boQrCSSonQ _dq3BBAa0Eeq9boQrCSSonQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_dq3BAQa0Eeq9boQrCSSonQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_dq3BAga0Eeq9boQrCSSonQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_dq3BAwa0Eeq9boQrCSSonQ" name="fetch from local db" type="_ZynkIAa0Eeq9boQrCSSonQ" association="_dq3BAAa0Eeq9boQrCSSonQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_dq3BBAa0Eeq9boQrCSSonQ" name="show history" type="_yWPAsAawEeq9boQrCSSonQ" association="_dq3BAAa0Eeq9boQrCSSonQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_gSyskAa0Eeq9boQrCSSonQ" memberEnd="_gSyskwa0Eeq9boQrCSSonQ _gSyslAa0Eeq9boQrCSSonQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_gSyskQa0Eeq9boQrCSSonQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_gSyskga0Eeq9boQrCSSonQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_gSyskwa0Eeq9boQrCSSonQ" name="fetch from local db" type="_ZynkIAa0Eeq9boQrCSSonQ" association="_gSyskAa0Eeq9boQrCSSonQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_gSyslAa0Eeq9boQrCSSonQ" name="show timestamps" type="_1qUAkAawEeq9boQrCSSonQ" association="_gSyskAa0Eeq9boQrCSSonQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_X4NQcAa1Eeq9boQrCSSonQ" memberEnd="_X4NQcwa1Eeq9boQrCSSonQ _X4NQdAa1Eeq9boQrCSSonQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_X4NQcQa1Eeq9boQrCSSonQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_X4NQcga1Eeq9boQrCSSonQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_X4NQcwa1Eeq9boQrCSSonQ" name="fetch online users" type="_ViG7wAa1Eeq9boQrCSSonQ" association="_X4NQcAa1Eeq9boQrCSSonQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_X4NQdAa1Eeq9boQrCSSonQ" name="start chat session" type="_sgO2oAawEeq9boQrCSSonQ" association="_X4NQcAa1Eeq9boQrCSSonQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_uINu0Aa1Eeq9boQrCSSonQ" name="Chat System">
+    <packagedElement xmi:type="uml:Package" xmi:id="_9NpEkAavEeq9boQrCSSonQ" name="Chat System Login">
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_DQq-AAawEeq9boQrCSSonQ" name="Choose a pseudo">
+        <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_UgJhwQawEeq9boQrCSSonQ" name="ExtensionPoint1"/>
+        <include xmi:type="uml:Include" xmi:id="_g5T20AawEeq9boQrCSSonQ" addition="_b3jNIAawEeq9boQrCSSonQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_Lm63QAawEeq9boQrCSSonQ" name="Change a pseudo">
+        <extend xmi:type="uml:Extend" xmi:id="_UgJhwAawEeq9boQrCSSonQ" extendedCase="_DQq-AAawEeq9boQrCSSonQ" extensionLocation="_UgJhwQawEeq9boQrCSSonQ"/>
+        <include xmi:type="uml:Include" xmi:id="_h8IlwAawEeq9boQrCSSonQ" addition="_b3jNIAawEeq9boQrCSSonQ"/>
+        <include xmi:type="uml:Include" xmi:id="_okNtAAawEeq9boQrCSSonQ" addition="_jI5T0AawEeq9boQrCSSonQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_b3jNIAawEeq9boQrCSSonQ" name="Verify pseudo availability"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_jI5T0AawEeq9boQrCSSonQ" name="Notify other users"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_GSaJUAazEeq9boQrCSSonQ" name="Chat System After Connection">
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_sgO2oAawEeq9boQrCSSonQ" name="Start chat session">
+        <include xmi:type="uml:Include" xmi:id="_0gt7QAawEeq9boQrCSSonQ" addition="_yWPAsAawEeq9boQrCSSonQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_yWPAsAawEeq9boQrCSSonQ" name="Show history">
+        <include xmi:type="uml:Include" xmi:id="_-eu8MAazEeq9boQrCSSonQ" addition="_1qUAkAawEeq9boQrCSSonQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_1qUAkAawEeq9boQrCSSonQ" name="Show timestamps"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_-xwGMAawEeq9boQrCSSonQ" name="Close session"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_gCa1oAaxEeq9boQrCSSonQ" name="Send image">
+        <extend xmi:type="uml:Extend" xmi:id="_QtDt0Aa0Eeq9boQrCSSonQ" extendedCase="_JeEe8AaxEeq9boQrCSSonQ" extensionLocation="_QtDt0Qa0Eeq9boQrCSSonQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_huYoMAaxEeq9boQrCSSonQ" name="Send file">
+        <extend xmi:type="uml:Extend" xmi:id="_Ry1qIAa0Eeq9boQrCSSonQ" extendedCase="_JeEe8AaxEeq9boQrCSSonQ" extensionLocation="_Ry1qIQa0Eeq9boQrCSSonQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_JeEe8AaxEeq9boQrCSSonQ" name="Send message">
+        <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_lCCxUQaxEeq9boQrCSSonQ" name="ExtensionPoint1"/>
+        <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_l8jRwQaxEeq9boQrCSSonQ" name="ExtensionPoint2"/>
+        <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_QtDt0Qa0Eeq9boQrCSSonQ" name="ExtensionPoint3"/>
+        <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_Ry1qIQa0Eeq9boQrCSSonQ" name="ExtensionPoint4"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_S56uUAaxEeq9boQrCSSonQ" name="Minimize chat">
+        <include xmi:type="uml:Include" xmi:id="_Pg6DwAa0Eeq9boQrCSSonQ" addition="_YGC08AaxEeq9boQrCSSonQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_YGC08AaxEeq9boQrCSSonQ" name="Display chat icon"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_WzHYAAayEeq9boQrCSSonQ" name="Save to local DB"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_ZynkIAa0Eeq9boQrCSSonQ" name="Fetch from local DB"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_ViG7wAa1Eeq9boQrCSSonQ" name="Fetch online users"/>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="__pPVkAa1Eeq9boQrCSSonQ" memberEnd="__pPVkwa1Eeq9boQrCSSonQ __pPVlAa1Eeq9boQrCSSonQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="__pPVkQa1Eeq9boQrCSSonQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="__pPVkga1Eeq9boQrCSSonQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="__pPVkwa1Eeq9boQrCSSonQ" name="send message" type="_JeEe8AaxEeq9boQrCSSonQ" association="__pPVkAa1Eeq9boQrCSSonQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="__pPVlAa1Eeq9boQrCSSonQ" name="user" type="_2cbPcAavEeq9boQrCSSonQ" association="__pPVkAa1Eeq9boQrCSSonQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_BzkfIAa2Eeq9boQrCSSonQ" memberEnd="_BzkfIwa2Eeq9boQrCSSonQ _BzkfJAa2Eeq9boQrCSSonQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_BzkfIQa2Eeq9boQrCSSonQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_BzkfIga2Eeq9boQrCSSonQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_BzkfIwa2Eeq9boQrCSSonQ" name="close session" type="_-xwGMAawEeq9boQrCSSonQ" association="_BzkfIAa2Eeq9boQrCSSonQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_BzkfJAa2Eeq9boQrCSSonQ" name="user" type="_2cbPcAavEeq9boQrCSSonQ" association="_BzkfIAa2Eeq9boQrCSSonQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_D4s_oAa2Eeq9boQrCSSonQ" memberEnd="_D4s_owa2Eeq9boQrCSSonQ _D4s_pAa2Eeq9boQrCSSonQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_D4s_oQa2Eeq9boQrCSSonQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_D4s_oga2Eeq9boQrCSSonQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_D4s_owa2Eeq9boQrCSSonQ" name="start chat session" type="_sgO2oAawEeq9boQrCSSonQ" association="_D4s_oAa2Eeq9boQrCSSonQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_D4s_pAa2Eeq9boQrCSSonQ" name="choose a pseudo" type="_DQq-AAawEeq9boQrCSSonQ" association="_D4s_oAa2Eeq9boQrCSSonQ"/>
+  </packagedElement>
+</uml:Model>
