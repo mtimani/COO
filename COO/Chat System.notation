@@ -279,9 +279,9 @@
       </children>
       <styles xsi:type="notation:FontStyle" xmi:id="_gN0-0Q-NEequTOgQWky6gQ"/>
       <element href="Chat%20System.uml#_gAyoYA-NEequTOgQWky6gQ"/>
-      <bendpoints xsi:type="notation:RelativeBendpoints" xmi:id="_gN0-0g-NEequTOgQWky6gQ" points="[0, 0, 0, -100]$[62, 0, 62, -100]$[62, 100, 62, 0]$[0, 100, 0, 0]"/>
-      <sourceAnchor xsi:type="notation:IdentityAnchor" xmi:id="_gnAT0A-NEequTOgQWky6gQ" id="(0.5,0.17822290703646637)"/>
-      <targetAnchor xsi:type="notation:IdentityAnchor" xmi:id="_gnAT0Q-NEequTOgQWky6gQ" id="(0.5,0.20903954802259886)"/>
+      <bendpoints xsi:type="notation:RelativeBendpoints" xmi:id="_gN0-0g-NEequTOgQWky6gQ" points="[0, 0, 0, -60]$[62, 0, 62, -60]$[62, 60, 62, 0]$[0, 60, 0, 0]"/>
+      <sourceAnchor xsi:type="notation:IdentityAnchor" xmi:id="_gnAT0A-NEequTOgQWky6gQ" id="(0.5,0.1679506933744222)"/>
+      <targetAnchor xsi:type="notation:IdentityAnchor" xmi:id="_gnAT0Q-NEequTOgQWky6gQ" id="(0.5,0.18849512069851052)"/>
     </edges>
     <edges xsi:type="notation:Connector" xmi:id="_pA26sA-NEequTOgQWky6gQ" type="Message_AsynchEdge" source="_6BNnwQw0EeqAGcAWHHDYfA" target="_Oxq-8Qw1EeqAGcAWHHDYfA">
       <children xsi:type="notation:DecorationNode" xmi:id="_pBGLQA-NEequTOgQWky6gQ" type="Message_AsynchNameLabel">
@@ -293,8 +293,8 @@
       <styles xsi:type="notation:FontStyle" xmi:id="_pA3hwA-NEequTOgQWky6gQ"/>
       <element href="Chat%20System.uml#_ozl6wA-NEequTOgQWky6gQ"/>
       <bendpoints xsi:type="notation:RelativeBendpoints" xmi:id="_pA3hwQ-NEequTOgQWky6gQ" points="[0, 0, -180, 0]$[180, 0, 0, 0]"/>
-      <sourceAnchor xsi:type="notation:IdentityAnchor" xmi:id="_paydoA-NEequTOgQWky6gQ" id="(0.5,0.21931176168464303)"/>
-      <targetAnchor xsi:type="notation:IdentityAnchor" xmi:id="_paydoQ-NEequTOgQWky6gQ" id="(0.5,0.07435597189695549)"/>
+      <sourceAnchor xsi:type="notation:IdentityAnchor" xmi:id="_paydoA-NEequTOgQWky6gQ" id="(0.5,0.20903954802259886)"/>
+      <targetAnchor xsi:type="notation:IdentityAnchor" xmi:id="_paydoQ-NEequTOgQWky6gQ" id="(0.5,0.0626463700234192)"/>
     </edges>
     <edges xsi:type="notation:Connector" xmi:id="_nhN0cA-vEeqqBrvJsrCpxg" type="Message_AsynchEdge" source="_9JD-8AwzEeqAGcAWHHDYfA" target="_6BNnwQw0EeqAGcAWHHDYfA">
       <children xsi:type="notation:DecorationNode" xmi:id="_nhObgA-vEeqqBrvJsrCpxg" type="Message_AsynchNameLabel">
@@ -607,6 +607,19 @@
       <bendpoints xsi:type="notation:RelativeBendpoints" xmi:id="_lCzXog-3EeqqBrvJsrCpxg" points="[0, 0, 0, -100]$[0, 100, 0, 0]"/>
       <sourceAnchor xsi:type="notation:IdentityAnchor" xmi:id="_lhF2IA-3EeqqBrvJsrCpxg" id="(0.5,0.9589111453518233)"/>
       <targetAnchor xsi:type="notation:IdentityAnchor" xmi:id="_lhGdMA-3EeqqBrvJsrCpxg" id="(0.5,0.9794555726759117)"/>
+    </edges>
+    <edges xsi:type="notation:Connector" xmi:id="_Y20tgA-4EeqqBrvJsrCpxg" type="Message_AsynchEdge" source="_6BNnwQw0EeqAGcAWHHDYfA" target="_6BNnwQw0EeqAGcAWHHDYfA">
+      <children xsi:type="notation:DecorationNode" xmi:id="_Y20tgw-4EeqqBrvJsrCpxg" type="Message_AsynchNameLabel">
+        <layoutConstraint xsi:type="notation:Location" xmi:id="_Y21UkA-4EeqqBrvJsrCpxg" x="1" y="-13"/>
+      </children>
+      <children xsi:type="notation:DecorationNode" xmi:id="_Y21UkQ-4EeqqBrvJsrCpxg" type="Message_AsynchStereotypeLabel">
+        <layoutConstraint xsi:type="notation:Location" xmi:id="_Y21Ukg-4EeqqBrvJsrCpxg" x="1" y="-33"/>
+      </children>
+      <styles xsi:type="notation:FontStyle" xmi:id="_Y20tgQ-4EeqqBrvJsrCpxg"/>
+      <element href="Chat%20System.uml#_YlLj4A-4EeqqBrvJsrCpxg"/>
+      <bendpoints xsi:type="notation:RelativeBendpoints" xmi:id="_Y20tgg-4EeqqBrvJsrCpxg" points="[0, 0, 0, -100]$[0, 100, 0, 0]"/>
+      <sourceAnchor xsi:type="notation:IdentityAnchor" xmi:id="_ZX-SwA-4EeqqBrvJsrCpxg" id="(0.5,0.21931176168464303)"/>
+      <targetAnchor xsi:type="notation:IdentityAnchor" xmi:id="_ZX-50A-4EeqqBrvJsrCpxg" id="(0.5,0.23985618900873137)"/>
     </edges>
   </notation:Diagram>
   <notation:Diagram xmi:id="_sJdx4AavEeq9boQrCSSonQ" type="UseCase" name="Use Case Diagram" measurementUnit="Pixel">
