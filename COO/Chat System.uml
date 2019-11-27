@@ -363,7 +363,7 @@
     <message xmi:type="uml:Message" xmi:id="_1S1fIA-MEequTOgQWky6gQ" name="CheckUsernameAvailability(Username)" messageSort="asynchCall" receiveEvent="_1S7lwA-MEequTOgQWky6gQ" sendEvent="_1S6-sA-MEequTOgQWky6gQ"/>
     <message xmi:type="uml:Message" xmi:id="_RGTmEA-NEequTOgQWky6gQ" name="StartChatSession(Username)" messageSort="createMessage" receiveEvent="_RGVbQA-NEequTOgQWky6gQ" sendEvent="_RGU0MA-NEequTOgQWky6gQ"/>
     <message xmi:type="uml:Message" xmi:id="_gAyoYA-NEequTOgQWky6gQ" name="FetchOnlineUsers()" messageSort="asynchCall" receiveEvent="_gAz2gQ-NEequTOgQWky6gQ" sendEvent="_gAz2gA-NEequTOgQWky6gQ"/>
-    <message xmi:type="uml:Message" xmi:id="_ozl6wA-NEequTOgQWky6gQ" name="DisplayOnlineUsers()" messageSort="asynchCall" receiveEvent="_oznv8A-NEequTOgQWky6gQ" sendEvent="_oznI4A-NEequTOgQWky6gQ"/>
+    <message xmi:type="uml:Message" xmi:id="_ozl6wA-NEequTOgQWky6gQ" name="DisplayOnlineUsers(UserList)" messageSort="asynchCall" receiveEvent="_oznv8A-NEequTOgQWky6gQ" sendEvent="_oznI4A-NEequTOgQWky6gQ"/>
     <message xmi:type="uml:Message" xmi:id="_nUbVoA-vEeqqBrvJsrCpxg" name="StartChat(User)" messageSort="asynchCall" receiveEvent="_nUdK0A-vEeqqBrvJsrCpxg" sendEvent="_nUcjwA-vEeqqBrvJsrCpxg"/>
     <message xmi:type="uml:Message" xmi:id="_09aT0A-vEeqqBrvJsrCpxg" name="errorMessage('User Not Online')" messageSort="asynchCall" receiveEvent="_09cJAA-vEeqqBrvJsrCpxg" sendEvent="_09bh8A-vEeqqBrvJsrCpxg"/>
     <message xmi:type="uml:Message" xmi:id="_6UBMIA-vEeqqBrvJsrCpxg" name="StartChatWindow(User)" messageSort="createMessage" receiveEvent="_6UDBUA-vEeqqBrvJsrCpxg" sendEvent="_6UCaQA-vEeqqBrvJsrCpxg"/>
@@ -530,17 +530,30 @@
     <ownedEnd xmi:type="uml:Property" xmi:id="_W9JS8wwyEeqAGcAWHHDYfA" name="save to local db" type="_WzHYAAayEeq9boQrCSSonQ" association="_W9JS8AwyEeqAGcAWHHDYfA"/>
     <ownedEnd xmi:type="uml:Property" xmi:id="_W9JS9AwyEeqAGcAWHHDYfA" name="fetch messages from buffer" type="_HmJTwAwyEeqAGcAWHHDYfA" association="_W9JS8AwyEeqAGcAWHHDYfA"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_0axGABD9EeqffNBCHBvfKg" name="Database" visibility="package">
+  <packagedElement xmi:type="uml:Class" xmi:id="_0axGABD9EeqffNBCHBvfKg" name="LocalDB" visibility="package">
     <ownedAttribute xmi:type="uml:Property" xmi:id="_z6nUYBD_EeqffNBCHBvfKg" name="Username">
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
     </ownedAttribute>
-    <ownedOperation xmi:type="uml:Operation" xmi:id="_clWosBEAEeqffNBCHBvfKg" name="ReturnMessageHistory(User)"/>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_d_tG0BEAEeqffNBCHBvfKg" name="ReturnMessageHistory" concurrency="concurrent">
       <ownedParameter xmi:type="uml:Parameter" xmi:id="_H0iPsBEBEeqffNBCHBvfKg" name="Username">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
       </ownedParameter>
       <ownedParameter xmi:type="uml:Parameter" xmi:id="_eA7ZYBEBEeqffNBCHBvfKg" direction="return">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_rjxncBEOEeqffNBCHBvfKg" name="SaveMessage()" concurrency="concurrent">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_rjxncREOEeqffNBCHBvfKg" name="Type" isUnique="false">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_rjxnchEOEeqffNBCHBvfKg" name="Content" isUnique="false">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_rjxncxEOEeqffNBCHBvfKg" name="Username">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_3miOsBEOEeqffNBCHBvfKg" isUnique="false" direction="return" effect="read">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EInt"/>
       </ownedParameter>
     </ownedOperation>
   </packagedElement>
@@ -590,7 +603,7 @@
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
       </ownedParameter>
       <ownedParameter xmi:type="uml:Parameter" xmi:id="_CJ1kcBEGEeqffNBCHBvfKg" name="Value">
-        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EBoolean"/>
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
       </ownedParameter>
       <ownedParameter xmi:type="uml:Parameter" xmi:id="_Evk3oBEGEeqffNBCHBvfKg" name="Username">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>

@@ -1252,6 +1252,10 @@
           <element href="Chat%20System.uml#_d_tG0BEAEeqffNBCHBvfKg"/>
           <layoutConstraint xsi:type="notation:Location" xmi:id="_d_-zoREAEeqffNBCHBvfKg"/>
         </children>
+        <children xsi:type="notation:Shape" xmi:id="_s3ocABEOEeqffNBCHBvfKg" type="Operation_ClassOperationLabel">
+          <element href="Chat%20System.uml#_rjxncBEOEeqffNBCHBvfKg"/>
+          <layoutConstraint xsi:type="notation:Location" xmi:id="_s3ocAREOEeqffNBCHBvfKg"/>
+        </children>
         <styles xsi:type="notation:TitleStyle" xmi:id="_0bCy1hD9EeqffNBCHBvfKg"/>
         <styles xsi:type="notation:SortingStyle" xmi:id="_0bCy1xD9EeqffNBCHBvfKg"/>
         <styles xsi:type="notation:FilteringStyle" xmi:id="_0bCy2BD9EeqffNBCHBvfKg"/>
@@ -1399,7 +1403,7 @@
         <layoutConstraint xsi:type="notation:Bounds" xmi:id="_D7wqkBEFEeqffNBCHBvfKg"/>
       </children>
       <element href="Chat%20System.uml#_D7uOQBEFEeqffNBCHBvfKg"/>
-      <layoutConstraint xsi:type="notation:Bounds" xmi:id="_D7wDcREFEeqffNBCHBvfKg" x="480" y="60"/>
+      <layoutConstraint xsi:type="notation:Bounds" xmi:id="_D7wDcREFEeqffNBCHBvfKg" x="600" y="40"/>
     </children>
     <styles xsi:type="notation:StringValueStyle" xmi:id="_sJws0QavEeq9boQrCSSonQ" name="diagram_compatibility_version" stringValue="1.4.0"/>
     <styles xsi:type="notation:DiagramStyle" xmi:id="_sJws0gavEeq9boQrCSSonQ"/>
