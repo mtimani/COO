@@ -1232,6 +1232,175 @@
     </edges>
   </notation:Diagram>
   <notation:Diagram xmi:id="_sJws0AavEeq9boQrCSSonQ" type="PapyrusUMLClassDiagram" name="Class Diagram" measurementUnit="Pixel">
+    <children xsi:type="notation:Shape" xmi:id="_0a-hYBD9EeqffNBCHBvfKg" type="Class_Shape">
+      <children xsi:type="notation:DecorationNode" xmi:id="_0bA9oBD9EeqffNBCHBvfKg" type="Class_NameLabel"/>
+      <children xsi:type="notation:DecorationNode" xmi:id="_0bBksBD9EeqffNBCHBvfKg" type="Class_FloatingNameLabel">
+        <layoutConstraint xsi:type="notation:Location" xmi:id="_0bBksRD9EeqffNBCHBvfKg" y="15"/>
+      </children>
+      <children xsi:type="notation:BasicCompartment" xmi:id="_0bCy0BD9EeqffNBCHBvfKg" type="Class_AttributeCompartment">
+        <children xsi:type="notation:Shape" xmi:id="_DnrqMBEAEeqffNBCHBvfKg" type="Property_ClassAttributeLabel">
+          <element href="Chat%20System.uml#_z6nUYBD_EeqffNBCHBvfKg"/>
+          <layoutConstraint xsi:type="notation:Location" xmi:id="_DnrqMREAEeqffNBCHBvfKg"/>
+        </children>
+        <styles xsi:type="notation:TitleStyle" xmi:id="_0bCy0RD9EeqffNBCHBvfKg"/>
+        <styles xsi:type="notation:SortingStyle" xmi:id="_0bCy0hD9EeqffNBCHBvfKg"/>
+        <styles xsi:type="notation:FilteringStyle" xmi:id="_0bCy0xD9EeqffNBCHBvfKg"/>
+        <layoutConstraint xsi:type="notation:Bounds" xmi:id="_0bCy1BD9EeqffNBCHBvfKg"/>
+      </children>
+      <children xsi:type="notation:BasicCompartment" xmi:id="_0bCy1RD9EeqffNBCHBvfKg" type="Class_OperationCompartment">
+        <children xsi:type="notation:Shape" xmi:id="_d_-zoBEAEeqffNBCHBvfKg" type="Operation_ClassOperationLabel">
+          <element href="Chat%20System.uml#_d_tG0BEAEeqffNBCHBvfKg"/>
+          <layoutConstraint xsi:type="notation:Location" xmi:id="_d_-zoREAEeqffNBCHBvfKg"/>
+        </children>
+        <styles xsi:type="notation:TitleStyle" xmi:id="_0bCy1hD9EeqffNBCHBvfKg"/>
+        <styles xsi:type="notation:SortingStyle" xmi:id="_0bCy1xD9EeqffNBCHBvfKg"/>
+        <styles xsi:type="notation:FilteringStyle" xmi:id="_0bCy2BD9EeqffNBCHBvfKg"/>
+        <layoutConstraint xsi:type="notation:Bounds" xmi:id="_0bCy2RD9EeqffNBCHBvfKg"/>
+      </children>
+      <children xsi:type="notation:BasicCompartment" xmi:id="_0bCy2hD9EeqffNBCHBvfKg" type="Class_NestedClassifierCompartment">
+        <eAnnotations xmi:id="_CDQfgBD_EeqffNBCHBvfKg" source="PapyrusCSSForceValue">
+          <details xmi:id="_CDRGkBD_EeqffNBCHBvfKg" key="collapsed" value="true"/>
+        </eAnnotations>
+        <styles xsi:type="notation:TitleStyle" xmi:id="_0bCy2xD9EeqffNBCHBvfKg"/>
+        <styles xsi:type="notation:SortingStyle" xmi:id="_0bCy3BD9EeqffNBCHBvfKg"/>
+        <styles xsi:type="notation:FilteringStyle" xmi:id="_0bCy3RD9EeqffNBCHBvfKg"/>
+        <layoutConstraint xsi:type="notation:Bounds" xmi:id="_0bCy3hD9EeqffNBCHBvfKg"/>
+      </children>
+      <element href="Chat%20System.uml#_0axGABD9EeqffNBCHBvfKg"/>
+      <layoutConstraint xsi:type="notation:Bounds" xmi:id="_0a-hYRD9EeqffNBCHBvfKg" x="140" y="40" height="141"/>
+    </children>
+    <children xsi:type="notation:Shape" xmi:id="_NPye0BD-EeqffNBCHBvfKg" type="Class_Shape">
+      <children xsi:type="notation:DecorationNode" xmi:id="_NPye0hD-EeqffNBCHBvfKg" type="Class_NameLabel"/>
+      <children xsi:type="notation:DecorationNode" xmi:id="_NPye0xD-EeqffNBCHBvfKg" type="Class_FloatingNameLabel">
+        <layoutConstraint xsi:type="notation:Location" xmi:id="_NPzF4BD-EeqffNBCHBvfKg" y="15"/>
+      </children>
+      <children xsi:type="notation:BasicCompartment" xmi:id="_NPzF4RD-EeqffNBCHBvfKg" type="Class_AttributeCompartment">
+        <styles xsi:type="notation:TitleStyle" xmi:id="_NPzF4hD-EeqffNBCHBvfKg"/>
+        <styles xsi:type="notation:SortingStyle" xmi:id="_NPzF4xD-EeqffNBCHBvfKg"/>
+        <styles xsi:type="notation:FilteringStyle" xmi:id="_NPzF5BD-EeqffNBCHBvfKg"/>
+        <layoutConstraint xsi:type="notation:Bounds" xmi:id="_NPzF5RD-EeqffNBCHBvfKg"/>
+      </children>
+      <children xsi:type="notation:BasicCompartment" xmi:id="_NPzF5hD-EeqffNBCHBvfKg" type="Class_OperationCompartment">
+        <styles xsi:type="notation:TitleStyle" xmi:id="_NPzF5xD-EeqffNBCHBvfKg"/>
+        <styles xsi:type="notation:SortingStyle" xmi:id="_NPzF6BD-EeqffNBCHBvfKg"/>
+        <styles xsi:type="notation:FilteringStyle" xmi:id="_NPzF6RD-EeqffNBCHBvfKg"/>
+        <layoutConstraint xsi:type="notation:Bounds" xmi:id="_NPzF6hD-EeqffNBCHBvfKg"/>
+      </children>
+      <children xsi:type="notation:BasicCompartment" xmi:id="_NPzF6xD-EeqffNBCHBvfKg" type="Class_NestedClassifierCompartment">
+        <styles xsi:type="notation:TitleStyle" xmi:id="_NPzF7BD-EeqffNBCHBvfKg"/>
+        <styles xsi:type="notation:SortingStyle" xmi:id="_NPzF7RD-EeqffNBCHBvfKg"/>
+        <styles xsi:type="notation:FilteringStyle" xmi:id="_NPzF7hD-EeqffNBCHBvfKg"/>
+        <layoutConstraint xsi:type="notation:Bounds" xmi:id="_NPzF7xD-EeqffNBCHBvfKg"/>
+      </children>
+      <element href="Chat%20System.uml#_NPvbgBD-EeqffNBCHBvfKg"/>
+      <layoutConstraint xsi:type="notation:Bounds" xmi:id="_NPye0RD-EeqffNBCHBvfKg" x="20" y="40"/>
+    </children>
+    <children xsi:type="notation:Shape" xmi:id="_dGXZIBECEeqffNBCHBvfKg" type="Class_Shape">
+      <children xsi:type="notation:DecorationNode" xmi:id="_dGYAMBECEeqffNBCHBvfKg" type="Class_NameLabel"/>
+      <children xsi:type="notation:DecorationNode" xmi:id="_dGYAMRECEeqffNBCHBvfKg" type="Class_FloatingNameLabel">
+        <layoutConstraint xsi:type="notation:Location" xmi:id="_dGYAMhECEeqffNBCHBvfKg" y="15"/>
+      </children>
+      <children xsi:type="notation:BasicCompartment" xmi:id="_dGYAMxECEeqffNBCHBvfKg" type="Class_AttributeCompartment">
+        <styles xsi:type="notation:TitleStyle" xmi:id="_dGYANBECEeqffNBCHBvfKg"/>
+        <styles xsi:type="notation:SortingStyle" xmi:id="_dGYANRECEeqffNBCHBvfKg"/>
+        <styles xsi:type="notation:FilteringStyle" xmi:id="_dGYANhECEeqffNBCHBvfKg"/>
+        <layoutConstraint xsi:type="notation:Bounds" xmi:id="_dGYANxECEeqffNBCHBvfKg"/>
+      </children>
+      <children xsi:type="notation:BasicCompartment" xmi:id="_dGYAOBECEeqffNBCHBvfKg" type="Class_OperationCompartment">
+        <children xsi:type="notation:Shape" xmi:id="_iHT_8BEBEeqffNBCHBvfKg" type="Operation_ClassOperationLabel">
+          <element href="Chat%20System.uml#_iHHysBEBEeqffNBCHBvfKg"/>
+          <layoutConstraint xsi:type="notation:Location" xmi:id="_iHT_8REBEeqffNBCHBvfKg"/>
+        </children>
+        <children xsi:type="notation:Shape" xmi:id="_CJQdABEDEeqffNBCHBvfKg" type="Operation_ClassOperationLabel">
+          <element href="Chat%20System.uml#_CJIhMBEDEeqffNBCHBvfKg"/>
+          <layoutConstraint xsi:type="notation:Location" xmi:id="_CJQdAREDEeqffNBCHBvfKg"/>
+        </children>
+        <children xsi:type="notation:Shape" xmi:id="_jOAQUBEDEeqffNBCHBvfKg" type="Operation_ClassOperationLabel">
+          <element href="Chat%20System.uml#_jN3tcBEDEeqffNBCHBvfKg"/>
+          <layoutConstraint xsi:type="notation:Location" xmi:id="_jOAQUREDEeqffNBCHBvfKg"/>
+        </children>
+        <styles xsi:type="notation:TitleStyle" xmi:id="_dGYAORECEeqffNBCHBvfKg"/>
+        <styles xsi:type="notation:SortingStyle" xmi:id="_dGYAOhECEeqffNBCHBvfKg"/>
+        <styles xsi:type="notation:FilteringStyle" xmi:id="_dGYAOxECEeqffNBCHBvfKg"/>
+        <layoutConstraint xsi:type="notation:Bounds" xmi:id="_dGYAPBECEeqffNBCHBvfKg"/>
+      </children>
+      <children xsi:type="notation:BasicCompartment" xmi:id="_dGYAPRECEeqffNBCHBvfKg" type="Class_NestedClassifierCompartment">
+        <styles xsi:type="notation:TitleStyle" xmi:id="_dGYAPhECEeqffNBCHBvfKg"/>
+        <styles xsi:type="notation:SortingStyle" xmi:id="_dGYAPxECEeqffNBCHBvfKg"/>
+        <styles xsi:type="notation:FilteringStyle" xmi:id="_dGYAQBECEeqffNBCHBvfKg"/>
+        <layoutConstraint xsi:type="notation:Bounds" xmi:id="_dGYAQRECEeqffNBCHBvfKg"/>
+      </children>
+      <element href="Chat%20System.uml#_dGU84BECEeqffNBCHBvfKg"/>
+      <layoutConstraint xsi:type="notation:Bounds" xmi:id="_dGXZIRECEeqffNBCHBvfKg" x="260" y="240"/>
+    </children>
+    <children xsi:type="notation:Shape" xmi:id="_GMelYBEEEeqffNBCHBvfKg" type="Class_Shape">
+      <children xsi:type="notation:DecorationNode" xmi:id="_GMelYhEEEeqffNBCHBvfKg" type="Class_NameLabel"/>
+      <children xsi:type="notation:DecorationNode" xmi:id="_GMelYxEEEeqffNBCHBvfKg" type="Class_FloatingNameLabel">
+        <layoutConstraint xsi:type="notation:Location" xmi:id="_GMelZBEEEeqffNBCHBvfKg" y="15"/>
+      </children>
+      <children xsi:type="notation:BasicCompartment" xmi:id="_GMfMcBEEEeqffNBCHBvfKg" type="Class_AttributeCompartment">
+        <styles xsi:type="notation:TitleStyle" xmi:id="_GMfMcREEEeqffNBCHBvfKg"/>
+        <styles xsi:type="notation:SortingStyle" xmi:id="_GMfMchEEEeqffNBCHBvfKg"/>
+        <styles xsi:type="notation:FilteringStyle" xmi:id="_GMfMcxEEEeqffNBCHBvfKg"/>
+        <layoutConstraint xsi:type="notation:Bounds" xmi:id="_GMfMdBEEEeqffNBCHBvfKg"/>
+      </children>
+      <children xsi:type="notation:BasicCompartment" xmi:id="_GMfMdREEEeqffNBCHBvfKg" type="Class_OperationCompartment">
+        <styles xsi:type="notation:TitleStyle" xmi:id="_GMfMdhEEEeqffNBCHBvfKg"/>
+        <styles xsi:type="notation:SortingStyle" xmi:id="_GMfMdxEEEeqffNBCHBvfKg"/>
+        <styles xsi:type="notation:FilteringStyle" xmi:id="_GMfMeBEEEeqffNBCHBvfKg"/>
+        <layoutConstraint xsi:type="notation:Bounds" xmi:id="_GMfMeREEEeqffNBCHBvfKg"/>
+      </children>
+      <children xsi:type="notation:BasicCompartment" xmi:id="_GMfMehEEEeqffNBCHBvfKg" type="Class_NestedClassifierCompartment">
+        <styles xsi:type="notation:TitleStyle" xmi:id="_GMfMexEEEeqffNBCHBvfKg"/>
+        <styles xsi:type="notation:SortingStyle" xmi:id="_GMfMfBEEEeqffNBCHBvfKg"/>
+        <styles xsi:type="notation:FilteringStyle" xmi:id="_GMfMfREEEeqffNBCHBvfKg"/>
+        <layoutConstraint xsi:type="notation:Bounds" xmi:id="_GMfMfhEEEeqffNBCHBvfKg"/>
+      </children>
+      <element href="Chat%20System.uml#_GMcwMBEEEeqffNBCHBvfKg"/>
+      <layoutConstraint xsi:type="notation:Bounds" xmi:id="_GMelYREEEeqffNBCHBvfKg" x="140" y="220"/>
+    </children>
+    <children xsi:type="notation:Shape" xmi:id="_D7wDcBEFEeqffNBCHBvfKg" type="Class_Shape">
+      <children xsi:type="notation:DecorationNode" xmi:id="_D7wDchEFEeqffNBCHBvfKg" type="Class_NameLabel"/>
+      <children xsi:type="notation:DecorationNode" xmi:id="_D7wqgBEFEeqffNBCHBvfKg" type="Class_FloatingNameLabel">
+        <layoutConstraint xsi:type="notation:Location" xmi:id="_D7wqgREFEeqffNBCHBvfKg" y="15"/>
+      </children>
+      <children xsi:type="notation:BasicCompartment" xmi:id="_D7wqghEFEeqffNBCHBvfKg" type="Class_AttributeCompartment">
+        <styles xsi:type="notation:TitleStyle" xmi:id="_D7wqgxEFEeqffNBCHBvfKg"/>
+        <styles xsi:type="notation:SortingStyle" xmi:id="_D7wqhBEFEeqffNBCHBvfKg"/>
+        <styles xsi:type="notation:FilteringStyle" xmi:id="_D7wqhREFEeqffNBCHBvfKg"/>
+        <layoutConstraint xsi:type="notation:Bounds" xmi:id="_D7wqhhEFEeqffNBCHBvfKg"/>
+      </children>
+      <children xsi:type="notation:BasicCompartment" xmi:id="_D7wqhxEFEeqffNBCHBvfKg" type="Class_OperationCompartment">
+        <children xsi:type="notation:Shape" xmi:id="_InahUBEFEeqffNBCHBvfKg" type="Operation_ClassOperationLabel">
+          <element href="Chat%20System.uml#_InNtABEFEeqffNBCHBvfKg"/>
+          <layoutConstraint xsi:type="notation:Location" xmi:id="_InahUREFEeqffNBCHBvfKg"/>
+        </children>
+        <children xsi:type="notation:Shape" xmi:id="_Rsjg4BEFEeqffNBCHBvfKg" type="Operation_ClassOperationLabel">
+          <element href="Chat%20System.uml#_RsYhwBEFEeqffNBCHBvfKg"/>
+          <layoutConstraint xsi:type="notation:Location" xmi:id="_Rsjg4REFEeqffNBCHBvfKg"/>
+        </children>
+        <children xsi:type="notation:Shape" xmi:id="_dO0DIBEFEeqffNBCHBvfKg" type="Operation_ClassOperationLabel">
+          <element href="Chat%20System.uml#_dOn14BEFEeqffNBCHBvfKg"/>
+          <layoutConstraint xsi:type="notation:Location" xmi:id="_dO0DIREFEeqffNBCHBvfKg"/>
+        </children>
+        <children xsi:type="notation:Shape" xmi:id="_MapF4BEGEeqffNBCHBvfKg" type="Operation_ClassOperationLabel">
+          <element href="Chat%20System.uml#_MaeGwBEGEeqffNBCHBvfKg"/>
+          <layoutConstraint xsi:type="notation:Location" xmi:id="_MapF4REGEeqffNBCHBvfKg"/>
+        </children>
+        <styles xsi:type="notation:TitleStyle" xmi:id="_D7wqiBEFEeqffNBCHBvfKg"/>
+        <styles xsi:type="notation:SortingStyle" xmi:id="_D7wqiREFEeqffNBCHBvfKg"/>
+        <styles xsi:type="notation:FilteringStyle" xmi:id="_D7wqihEFEeqffNBCHBvfKg"/>
+        <layoutConstraint xsi:type="notation:Bounds" xmi:id="_D7wqixEFEeqffNBCHBvfKg"/>
+      </children>
+      <children xsi:type="notation:BasicCompartment" xmi:id="_D7wqjBEFEeqffNBCHBvfKg" type="Class_NestedClassifierCompartment">
+        <styles xsi:type="notation:TitleStyle" xmi:id="_D7wqjREFEeqffNBCHBvfKg"/>
+        <styles xsi:type="notation:SortingStyle" xmi:id="_D7wqjhEFEeqffNBCHBvfKg"/>
+        <styles xsi:type="notation:FilteringStyle" xmi:id="_D7wqjxEFEeqffNBCHBvfKg"/>
+        <layoutConstraint xsi:type="notation:Bounds" xmi:id="_D7wqkBEFEeqffNBCHBvfKg"/>
+      </children>
+      <element href="Chat%20System.uml#_D7uOQBEFEeqffNBCHBvfKg"/>
+      <layoutConstraint xsi:type="notation:Bounds" xmi:id="_D7wDcREFEeqffNBCHBvfKg" x="480" y="60"/>
+    </children>
     <styles xsi:type="notation:StringValueStyle" xmi:id="_sJws0QavEeq9boQrCSSonQ" name="diagram_compatibility_version" stringValue="1.4.0"/>
     <styles xsi:type="notation:DiagramStyle" xmi:id="_sJws0gavEeq9boQrCSSonQ"/>
     <styles xsi:type="style:PapyrusDiagramStyle" xmi:id="_sJws0wavEeq9boQrCSSonQ" diagramKindId="org.eclipse.papyrus.uml.diagram.class">
